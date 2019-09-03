@@ -1,0 +1,19 @@
+#__device {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  z-index: 10000;
+  .btn--device {
+      display: inline-block;
+      color: #fff;
+      background-color: #ff534d;
+      line-height: 1;
+      font-size: 14px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      box-shadow: 0 0 8px rgba(0,0,0,.4);
+  }
+  .close {
+      background-color: #D9D9D9;
+  }
+}

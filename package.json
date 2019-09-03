@@ -1,0 +1,43 @@
+{
+  "name": "deviceswitch",
+  "version": "1.0.0",
+  "description": "A simple device switch tool for Testers",
+  "main": "dist/deviceSwitch.min.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdeaEcho/deviceSwitch.git"
+  },
+  "keywords": [
+    "switch",
+    "debug",
+    "device"
+  ],
+  "author": "ChenShuyao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IdeaEcho/deviceSwitch/issues"
+  },
+  "homepage": "https://github.com/IdeaEcho/deviceSwitch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
